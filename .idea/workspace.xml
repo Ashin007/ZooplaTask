@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c35b9de3-524c-4424-aaf4-15fa88703f0a" name="Default Changelist" comment="" />
+    <list default="true" id="c35b9de3-524c-4424-aaf4-15fa88703f0a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ulgxTJy4VjL4teGX4LAJAASUnu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +31,54 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="TestNG.MainTest">
+    <configuration name="MainTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ZooplaTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcase" />
+      <option name="MAIN_CLASS_NAME" value="testcase.MainTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ZooplaTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcase" />
+      <option name="MAIN_CLASS_NAME" value="testcase.MainTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.MainTest" />
+        <item itemvalue="TestNG.MainTest.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -28,5 +92,47 @@
       <updated>1625245835694</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1625247991051">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1625247991051" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1625249320586">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1625249320586" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1625249320586">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1625249320586" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1625249320586">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1625249320586" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1625249320586">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1625249320586" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1625248706765">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1625248706765" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1625248706765">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1625248706765" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1625248706765">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1625248706765" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1625248706765">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1625248706765" />
+    <state x="277" y="14" key="SettingsEditor" timestamp="1625247415308">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="277" y="14" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1625247415308" />
   </component>
 </project>
