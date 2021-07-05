@@ -7,13 +7,18 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
+import pageobjectmodel.AgentPage;
 import pageobjectmodel.MainPage;
+import pageobjectmodel.PropertyPage;
 
 import java.util.*;
 
 public class MainTest extends Base {
 
     WebDriver driver;
+    MainPage mainPage;
+    PropertyPage propertyPage;
+    AgentPage agentPage;
 
     @Test
     public void test(){
@@ -21,12 +26,12 @@ public class MainTest extends Base {
         driver = initialize();
         driver.get("https://www.zoopla.co.uk/");
 
-        MainPage mainPage = new MainPage(driver);
+        mainPage = new MainPage(driver);
         mainPage.clickOnCookieAccept();
         mainPage.enterOnSearchBox().sendKeys("London");
-        mainPage.clickOnSearch();
+        propertyPage = mainPage.clickOnSearch();
 
-        List<WebElement> price_elements = mainPage.getAllPriceTags();
+        List<WebElement> price_elements = propertyPage.getAllPriceTags();
 
         List<Integer> price_list = new ArrayList<Integer>();
 
@@ -49,15 +54,15 @@ public class MainTest extends Base {
         }
 
         //clicking on the 5th property list
-        mainPage.getPropertyTab().get(5-1).click();
+        propertyPage.getPropertyTab().get(5-1).click();
 
-        String agent_name_from_property_page = mainPage.getAgentNameFromPropertyPage();
-
-
-        mainPage.clickOnAgentLink();
+        String agent_name_from_property_page = propertyPage.getAgentNameFromPropertyPage();
 
 
-        String agent_name_from_agent_page = mainPage.getAgentNameFromAgentPage();
+        agentPage = propertyPage.clickOnAgentLink();
+
+
+        String agent_name_from_agent_page = agentPage.getAgentNameFromAgentPage();
 
 
         Assert.assertEquals(agent_name_from_property_page,agent_name_from_agent_page);
