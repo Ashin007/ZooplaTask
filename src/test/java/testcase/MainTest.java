@@ -1,5 +1,6 @@
 package testcase;
 
+import Utils.ConfigData;
 import Utils.ExtentConfig;
 import base.Base;
 import com.aventstack.extentreports.ExtentReports;
@@ -15,21 +16,28 @@ import pageobjectmodel.AgentPage;
 import pageobjectmodel.MainPage;
 import pageobjectmodel.PropertyPage;
 
+import java.io.IOException;
 import java.util.*;
 
 public class MainTest extends Base {
 
     WebDriver driver;
+    Properties properties;
+
     MainPage mainPage;
     PropertyPage propertyPage;
     AgentPage agentPage;
 
 
     @Test
-    public void test(){
-
+    public void test() throws IOException {
+        //initializing web driver
         driver = initialize();
-        driver.get("https://www.zoopla.co.uk/");
+
+        properties = new Properties();
+
+        driver.get(ConfigData.getPropertiesData("url"));
+
 
         mainPage = new MainPage(driver);
         mainPage.clickOnCookieAccept();

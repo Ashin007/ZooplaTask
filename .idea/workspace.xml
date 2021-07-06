@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c35b9de3-524c-4424-aaf4-15fa88703f0a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/Base.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testcase/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcase/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageobjectmodel/AgentPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobjectmodel/AgentPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageobjectmodel/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobjectmodel/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageobjectmodel/PropertyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobjectmodel/PropertyPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testcase/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcase/MainTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,11 +33,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GitHubProjects/PageObjectModel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Utils" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ashin\Documents\Software Testing\ZooplaTask\src\main\java\Utils" />
+    </key>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/ashin/Documents/Software Testing/ZooplaTask/testng.xml">
     <configuration name="C:/Users/ashin/Documents/Software Testing/ZooplaTask/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -109,6 +112,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="91" key="#Project_Structure" timestamp="1625582009890">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="91" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1625582009890" />
     <state x="93" y="93" width="1350" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1625512192547">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -121,22 +128,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1625415213214" />
-    <state width="1493" height="468" key="GridCell.Tab.0.bottom" timestamp="1625578217588">
+    <state width="1493" height="510" key="GridCell.Tab.0.bottom" timestamp="1625584442456">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="468" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1625578217588" />
-    <state width="1493" height="468" key="GridCell.Tab.0.center" timestamp="1625578217588">
+    <state width="1493" height="510" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1625584442456" />
+    <state width="1493" height="510" key="GridCell.Tab.0.center" timestamp="1625584442456">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="468" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1625578217588" />
-    <state width="1493" height="468" key="GridCell.Tab.0.left" timestamp="1625578217588">
+    <state width="1493" height="510" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1625584442456" />
+    <state width="1493" height="510" key="GridCell.Tab.0.left" timestamp="1625584442456">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="468" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1625578217588" />
-    <state width="1493" height="468" key="GridCell.Tab.0.right" timestamp="1625578217588">
+    <state width="1493" height="510" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1625584442456" />
+    <state width="1493" height="510" key="GridCell.Tab.0.right" timestamp="1625584442456">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="468" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1625578217588" />
+    <state width="1493" height="510" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1625584442456" />
     <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1625249864798">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

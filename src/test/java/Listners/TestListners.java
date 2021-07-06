@@ -14,8 +14,6 @@ public class TestListners implements ITestListener {
     @Override
     public void onTestStart(ITestResult result) {
 
-        System.out.println("start");
-
         test = extentReports.createTest(result.getMethod().getMethodName());
 
     }
