@@ -1,6 +1,11 @@
 package testcase;
 
+import Utils.ConfigData;
+import Utils.ExtentConfig;
 import base.Base;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,20 +16,28 @@ import pageobjectmodel.AgentPage;
 import pageobjectmodel.MainPage;
 import pageobjectmodel.PropertyPage;
 
+import java.io.IOException;
 import java.util.*;
 
 public class MainTest extends Base {
 
     WebDriver driver;
+    Properties properties;
+
     MainPage mainPage;
     PropertyPage propertyPage;
     AgentPage agentPage;
 
-    @Test
-    public void test(){
 
+    @Test
+    public void test() throws IOException {
+        //initializing web driver
         driver = initialize();
-        driver.get("https://www.zoopla.co.uk/");
+
+        properties = new Properties();
+
+        driver.get(ConfigData.getPropertiesData("url"));
+
 
         mainPage = new MainPage(driver);
         mainPage.clickOnCookieAccept();
@@ -35,7 +48,7 @@ public class MainTest extends Base {
 
         List<Integer> price_list = new ArrayList<Integer>();
 
-        int price=0;
+        int price;
 
         for (WebElement element:price_elements){
             //converting price text -$20,458,21
@@ -66,6 +79,8 @@ public class MainTest extends Base {
 
 
         Assert.assertEquals(agent_name_from_property_page,agent_name_from_agent_page);
+
+
     }
 
     @AfterTest
