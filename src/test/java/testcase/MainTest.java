@@ -1,6 +1,10 @@
 package testcase;
 
+import Utils.ExtentConfig;
 import base.Base;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -20,6 +24,7 @@ public class MainTest extends Base {
     PropertyPage propertyPage;
     AgentPage agentPage;
 
+
     @Test
     public void test(){
 
@@ -35,7 +40,7 @@ public class MainTest extends Base {
 
         List<Integer> price_list = new ArrayList<Integer>();
 
-        int price=0;
+        int price;
 
         for (WebElement element:price_elements){
             //converting price text -$20,458,21
@@ -66,6 +71,8 @@ public class MainTest extends Base {
 
 
         Assert.assertEquals(agent_name_from_property_page,agent_name_from_agent_page);
+
+
     }
 
     @AfterTest
