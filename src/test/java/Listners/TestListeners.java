@@ -8,7 +8,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-public class TestListners implements ITestListener {
+public class TestListeners implements ITestListener {
     ExtentReports extentReports = ExtentConfig.config();;
     ExtentTest test;
     @Override
