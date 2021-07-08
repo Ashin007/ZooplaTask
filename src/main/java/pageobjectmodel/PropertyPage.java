@@ -12,8 +12,8 @@ public class PropertyPage {
 
     private By price_tag = By.xpath("//p[@size='6' and @class='css-6v9gpl-Text eczcs4p0']");
     private By property_tab = By.xpath("//div[@class='css-wfndrn-StyledContent e2uk8e18']");
-    private By agent_name_property = By.xpath("//h3[@size='6' and @class='css-e13akx-Heading3-AgentHeading e11937k16' ]");
-    private By agent_name_property_anchor_tag = By.xpath("//h3[@size='6' and @class='css-e13akx-Heading3-AgentHeading e11937k16' ]/a");
+    private By agent_name_property = By.xpath("//h3[@size='6' and @class='css-8oick9-Heading3-AgentHeading e11937k16' ]");
+    private By agent_name_property_anchor_tag = By.xpath("//h3[@size='6' and @class='css-8oick9-Heading3-AgentHeading e11937k16' ]/a");
     private By agent_link = By.xpath("//div[@class='css-1niyh5b-AgentHeader e11937k17']/a");
 
     public PropertyPage(WebDriver driver) {
